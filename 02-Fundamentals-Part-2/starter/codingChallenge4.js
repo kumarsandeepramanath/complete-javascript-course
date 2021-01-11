@@ -32,4 +32,4 @@ const x = 23;
 
 const y = "43";
 x;
-console.log("In the Live server");
+console.log("On the Live server");
