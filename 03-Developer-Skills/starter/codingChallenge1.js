@@ -6,7 +6,9 @@ const testData = [17, 21, 23];
 function printForecast(testData) {
   let printStr = "";
   for (let i = 0; i <= testData.length - 1; i++) {
-    printStr += `${testData[i]} deg celcius in ${i + 1} days ... `;
+    printStr += `The temperature ${testData[i]} deg celcius in ${
+      i + 1
+    } days ... `;
   }
   return printStr;
 }
